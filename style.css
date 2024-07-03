@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    background-color: #8ecf95;
+    margin: auto;
+}
+header{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-top: -12px;
+    margin-right: -8px;
+    margin-left: -8px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, #63ae6a, #267833, #13431a);
+}
+
+header > h1{
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+}
+
+header > p{
+    font-size: 1em;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+header > nav{
+    color: white;
+    margin-top: 37px;
+}
+
+nav > a{
+    padding: 10px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'android';
+    box-shadow: 1px 1px 13px black;
+}
+
+nav > a:hover{
+    color: #267833;
+    transition-duration: 1s;
+}
+
+main{
+    min-width: 400px;
+    max-width: 800px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 5px 5px 10px #13431a;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 1px 10px 15px 10px; /*Shorthand de padding*/
+}
+
+main > h2{
+    font-family: 'android';
+    color: #267833;
+}
+
+main > p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    text-indent: 20px;
+    line-height: 1.5em;
+}
+
+main > h3{
+    font-family: 'android';
+    color: #267833;
+    background-image: linear-gradient(to right, #8ecf95, white);
+    padding: 3px;
+}
+
+picture > img{
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.linktext{
+    color: #267833;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: #c6edca;
+    padding: 2px;
+}
+#video{
+    background-color: #13431a;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: -10px;
+    margin-right: -10px;
+    width: 100%;
+}
+#bugdroid{
+    margin: auto;
+    display: block;
+}
+
+#extra{
+    background-color: #8ecf95;
+    border-radius: 10px;
+}
+
+#extra > h4{
+    background-color: #267833;
+    padding: 10px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#extra > p{
+    margin-left: 15px;
+    text-indent: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+ul{
+    column-count: 2;
+}
+
+footer > p{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'android';
+    line-height: 1.5em;
+}
